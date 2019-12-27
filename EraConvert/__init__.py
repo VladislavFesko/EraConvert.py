@@ -25,50 +25,50 @@ __all__ = [
     'convert_xthofx',
     ]
 def convert_ATE(year):
-    print("(-1/12)+" + year)
+    return "n+" + year
 def convert_Infinities(year):
-    print("2(-1/12)+" + year)
+    return "2n+" + year
 def convert_Trids(year):
-    print("3(-1/12)+" + year)
+    return "3n+" + year
 def convert_Tetix(year):
-    print("4(-1/12)+" + year)
+    return "4n+" + year
 def convert_Petix(year):
-    print("5(-1/12)+" + year)
+    return "5n+" + year
 def convert_Ectix(year):
-    print("6(-1/12)+" + year)
+    return "6n+" + year
 def convert_Zettix(year):
-    print("7(-1/12)+" + year)
+    return "7n+" + year
 def convert_Yottix(year):
-    print("8(-1/12)+" + year)
+    return "8n+" + year
 def convert_Xenux(year):
-    print("9(-1/12)+" + year)
+    return "9n+" + year
 def convert_YOV(year):
-    print("7000000000(-1/12)+" + year)
+    return "7000000000n+" + year
 def convert_YOC(year):
-    print("8000000008(-1/12)+" + year)
+    return "8000000008n+" + year
 def convert_YOH(year):
-    print("6.66e+666(-1/12)+" + year)
+    return "6.66e+666n+" + year
 def convert_YOA(year):
-    print("13.8e+3000000000000000006(-1/12)+" + year)
+    return "13.8e+3000000000000000006n+" + year
 def convert_xATE(integer, year):
-    print(integer + "(-1/12)+" + year)
+    return integer + "n+" + year
 def convert_MATE(year):
-    print("(-1/12)^2+" + year)
+    return "n^2+" + year
 def convert_YOVp(year):
-    print("7000000000(-1/12)^2+" + year)
+    return "7000000000n^2+" + year
 def convert_EEE(year):
-    print("(-1/12)^3+" + year)
+    return "n^3+" + year
 def convert_DEE(year):
-    print("2(-1/12)^3+" + year)
+    return "2n^3+" + year
 def convert_CME(year):
-    print("3(-1/12)^3+" + year)
+    return "3n^3+" + year
 def convert_PME(year):
-    print("4(-1/12)^3+" + year)
+    return "4n^3+" + year
 def convert_EEEp(year):
-    print("(-1/12)^4+" + year)
+    return "n^4+" + year
 def convert_EEEp2(year):
-    print("(-1/12)^5+" + year)
+    return "n^5+" + year
 def convert_EEEp3(year):
-    print("(-1/12)^6+" + year)
+    return "n^6+" + year
 def convert_xthofx(integer, year):
-    print(integer + "E" + year)
+    return integer + "E" + year
